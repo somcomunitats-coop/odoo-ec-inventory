@@ -1,0 +1,17 @@
+# Vars to use in lxc-create
+NAME="odoo-ce"
+DISTRIBUTION="ubuntu"
+RELEASE="bionic"
+ARCH="amd64"
+HOST="$NAME.local"
+
+DEVENV_USER="odoo"
+DEVENV_GROUP="odoo"
+
+# Make sure that the directory "../odoo-ce" exists
+# in the host machine before executing this script.
+# Else, please clone it from https://gitlab.com/coopdevs/odoo-ce
+
+PROJECT_NAME="singulars"
+PROJECT_PATH="${PWD%/*}/$NAME/$PROJECT_NAME"
+BASE_PATH="/opt/odoo_modules"
