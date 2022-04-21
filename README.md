@@ -4,6 +4,8 @@ This repository stores hosts informations and related variables for this specifi
 
 1. Clone this repo and [odoo-provisioning](https://gitlab.com/coopdevs/odoo-provisioning) in the same directory
 
+1.2. Create a folder in the same directory `mkdir -p  odoo-ce/singulars' _this step will be clone a repo in the future_
+
 2. If you want to test this set up locally, install [devenv](https://github.com/coopdevs/devenv/) and do:
    ```sh
    cd odoo-ce-inventory
