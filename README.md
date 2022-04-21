@@ -30,15 +30,15 @@ This repository stores hosts informations and related variables for this specifi
    ```sh
    # tell it to keep it local with limit=dev
    # don't ask for vault pass as no secrets are required for local setups
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce/inventory/hosts --limit=dev
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --limit=dev
    ```
    * testing mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce/inventory/hosts --ask-vault-pass --limit=testing
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=testing
    ```
    * production mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce/inventory/hosts --ask-vault-pass --limit=production
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=production
    ```
 6. Start Odoo
    * development local mode
