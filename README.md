@@ -51,6 +51,6 @@ This repository stores hosts informations and related variables for this specifi
    ./odoo-bin -c /etc/odoo/odoo.conf -d odoo
    ```
 7. Now, you can visit:
-   * In development http://odoo-ce-singulars.local:8069
+   * In development http://odoo-ce.local:8069
    * In testing http://lux.somenergia.lan:8069
    * In production http://ce-singulars.coopedevs.org
