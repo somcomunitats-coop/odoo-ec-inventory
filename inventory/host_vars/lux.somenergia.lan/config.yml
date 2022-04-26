@@ -37,7 +37,7 @@ system_administrators:
 developers: []
 
 domains:
-  - todoo.somenergia.lan
+  - lux.somenergia.lan
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"

@@ -13,10 +13,75 @@ odoo_role_odoo_url: "https://gitlab.com/coopdevs/OCB/-/archive/{{ odoo_role_odoo
 odoo_role_odoo_core_modules_dict:
   shared:
     - base
+    - account_cancel
+    - base_address_city
+    - base_automation
+    - base_vat
+    - contacts
+    - l10n_es
+    - partner_autocomplete
+    - purchase
+    - mass_mailing
+    - mass_mailing_crm
+    - crm
 
 odoo_role_odoo_community_modules_dict:
   shared:
     - easy_my_coop
+    - mass_mailing_list_dynamic
+    - mass_mailing_partner
+    - mass_mailing_resend
+    - account_asset_management
+    - account_banking_mandate
+    - account_banking_pain_base
+    - account_banking_sepa_credit_transfer
+    - account_banking_sepa_direct_debit
+    - account_due_list
+    - account_financial_report
+    - account_fiscal_year
+    - account_group_menu
+    - account_invoice_check_total
+    - account_invoice_force_number
+    - account_invoice_refund_link
+    - account_lock_date_update
+    - account_payment_mode
+    - account_payment_order
+    - account_payment_partner
+    - account_payment_return
+    - account_payment_return_import
+    - account_payment_return_import_iso20022
+    - account_payment_sale
+    - account_tax_balance
+    - account_type_menu
+    - base_bank_from_iban
+    - base_iso3166
+    - base_location
+    - base_location_geonames_import
+    - base_technical_features
+    - base_user_role
+    - date_range
+    - l10n_es_account_asset
+    - l10n_es_account_bank_statement_import_n43
+    - l10n_es_account_banking_sepa_fsdd
+    - l10n_es_account_invoice_sequence
+    - l10n_es_facturae
+    - l10n_es_mis_report
+    - l10n_es_partner
+    - l10n_es_partner_mercantil
+    - l10n_es_toponyms
+    - mail_tracking
+    - mass_editing
+    - mis_builder
+    - mis_builder_budget
+    - report_py3o
+    - report_xlsx
+    - web_advanced_search
+    - web_decimal_numpad_dot
+    - web_environment_ribbon  
+    - web_favicon
+    - web_no_bubble
+    - web_responsive
+    - web_searchbar_full_width
 
 # Odoo provisioning
 odoo_provisioning_version: "v0.7.6"
