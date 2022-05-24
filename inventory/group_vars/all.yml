@@ -53,6 +53,7 @@ odoo_role_odoo_community_modules_dict:
     - account_payment_sale
     - account_tax_balance
     - account_type_menu
+    - auth_keycloack
     - base_bank_from_iban
     - base_iso3166
     - base_location

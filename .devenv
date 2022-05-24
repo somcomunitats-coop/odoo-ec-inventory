@@ -12,6 +12,9 @@ DEVENV_GROUP="odoo"
 # in the host machine before executing this script.
 # Else, please clone it from https://gitlab.com/coopdevs/odoo-ce
 
-PROJECT_NAME="singulars"
+PROJECT_NAME="ce"
 PROJECT_PATH="${PWD%/*}/$NAME/$PROJECT_NAME"
+declare -a OTHER_PROJECTS_PATHS=(
+""
+)
 BASE_PATH="/opt/odoo_modules"
