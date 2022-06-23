@@ -64,9 +64,8 @@ odoo12-addon-web-widget-image-download==12.0.1.0.0.99.dev5
 odoo12-addon-web-widget-many2many-tags-multi-selection==12.0.1.0.0.99.dev3
 
 # gestió societària (suggerit per CoopDevs)
-odoo12-addon-easy-my-coop==12.0.3.0.2.99.dev17
-odoo12-addon-easy-my-coop-es==12.0.0.0.16
-odoo12-addon-easy-my-coop-es-website==12.0.0.0.2
-odoo12-addon-easy-my-coop-website==12.0.1.0.4.99.dev1
-odoo12-addon-easy-my-coop-website-portal==12.0.1.0.0.99.dev18
+odoo12-addon-easy-my-coop==12.0.3.3.1.99.dev12
+odoo12-addon-easy-my-coop-es==12.0.0.0.16.99.dev9
+odoo12-addon-easy-my-coop-es-website==12.0.0.1.0
+odoo12-addon-easy-my-coop-website==12.0.1.1.1
 odoo12-addon-auth-keycloak==12.0.0.0.0
