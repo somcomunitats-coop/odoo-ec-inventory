@@ -29,6 +29,8 @@ odoo_role_odoo_community_modules_dict:
   shared:
     - easy_my_coop
     - easy_my_coop_es
+    - easy_my_coop_website
+    - easy_my_coop_es_website
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
