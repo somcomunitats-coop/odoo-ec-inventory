@@ -67,4 +67,7 @@ odoo12-addon-easy-my-coop-es==12.0.0.0.16.99.dev9
 odoo12-addon-easy-my-coop-es-website==12.0.0.1.0
 odoo12-addon-easy-my-coop-website==12.0.1.1.1
 odoo12-addon-auth-keycloak==12.0.0.0.0
-odoo12-addon-ce==12.0.0.0.2.99.dev1
+odoo12-addon-ce==12.0.0.0.3
+python-slugify==5.0.2
+odoo12-addon-community-maps==12.0.0.2.2
+
