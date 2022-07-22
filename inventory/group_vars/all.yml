@@ -32,6 +32,7 @@ odoo_role_odoo_community_modules_dict:
     - community_maps
     - community_maps_landings
     - ce
+    - community-maps
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
