@@ -27,11 +27,11 @@ odoo_role_odoo_core_modules_dict:
 
 odoo_role_odoo_community_modules_dict:
   shared:
-    - easy_my_coop
-    - easy_my_coop_es
-    - easy_my_coop_website
-    - easy_my_coop_es_website
-    - community-maps
+    - ce
+    - cooperator
+    - cooperator_website
+    - community_maps
+    - community_maps_landings
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
@@ -69,6 +69,7 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
     - l10n_es_account_invoice_sequence
+    - l10n_es_cooperator
     - l10n_es_facturae
     - l10n_es_mis_report
     - l10n_es_partner
