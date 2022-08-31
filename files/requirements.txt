@@ -63,6 +63,7 @@ odoo12-addon-web-widget-color==12.0.1.0.0.99.dev4
 odoo12-addon-web-widget-image-download==12.0.1.0.0.99.dev5
 odoo12-addon-web-widget-many2many-tags-multi-selection==12.0.1.0.0.99.dev3
 odoo12-addon-auth-keycloak==12.0.0.0.0
+odoo12-addon-ce==12.0.0.0.5
 odoo12-addon-mass-mailing-list-dynamic==12.0.1.0.4
 odoo12-addon-community-maps==12.0.0.2.4
 odoo12-addon-community-maps-landings==12.0.0.0.3.dev1
