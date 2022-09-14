@@ -4,7 +4,7 @@ odoo-ce.local ansible_port=22
 [testing]
 lux.somenergia.lan ansible_port=2200
 
-[production]
+[prod]
 odoo-ce-singulars.coopedevs.org ansible_port=2200
 
 [odoo_servers:children]
