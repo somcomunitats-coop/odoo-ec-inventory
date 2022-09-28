@@ -27,11 +27,11 @@ odoo_role_odoo_core_modules_dict:
 
 odoo_role_odoo_community_modules_dict:
   shared:
-    - ce
     - cooperator
     - cooperator_website
     - community_maps
     - community_maps_landings
+    - ce
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
