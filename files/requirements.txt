@@ -72,4 +72,4 @@ git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-eas
 git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-website&subdirectory=setup/cooperator_website
 git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-es&subdirectory=setup/l10n_es_cooperator
 odoo12-addon-ce==12.0.0.0.17
-
+python-slugify==5.0.2
