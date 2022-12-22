@@ -13,7 +13,7 @@ DEVENV_GROUP="odoo"
 # Else, please clone it from https://gitlab.com/coopdevs/odoo-ce
 
 PROJECT_NAME="ce"
-PROJECT_PATH="${PWD%/*}/$NAME/$PROJECT_NAME"
+PROJECT_PATH="${PWD%/*}/odoo-ce/$PROJECT_NAME"
 declare -a OTHER_PROJECTS_PATHS=(
 ""
 )
