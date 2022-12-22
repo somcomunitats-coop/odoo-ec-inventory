@@ -9,7 +9,7 @@ odoo_role_odoo_dbs: [odoo]
 odoo_role_download_strategy: tar
 odoo_role_odoo_version: "14.0"
 odoo_role_odoo_release: "14.0_2022-11-22"
-odoo_role_odoo_url: "https://gitlab.com/coopdevs/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
+odoo_role_odoo_url: "https://git.coopdevs.org/coopdevs/odoo/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
 odoo_role_odoo_core_modules_dict:
   shared:
     - base
