@@ -58,3 +58,4 @@ odoo14-addon-auth-oidc==14.0.1.0.3.dev1
 odoo14-addon-mass-mailing-list-dynamic==14.0.1.0.1.dev4
 odoo14-addon-cooperator==14.0.1.5.2
 odoo14-addon-cooperator-website==14.0.1.1.1
+git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-es&subdirectory=setup/l10n_es_cooperator
