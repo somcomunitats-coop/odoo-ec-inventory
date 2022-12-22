@@ -29,9 +29,6 @@ odoo_role_odoo_community_modules_dict:
   shared:
     - cooperator
     - cooperator_website
-    - community_maps
-    - community_maps_landings
-    - ce
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
@@ -43,7 +40,6 @@ odoo_role_odoo_community_modules_dict:
     - account_due_list
     - account_financial_report
     - account_fiscal_year
-    - account_group_menu
     - account_invoice_check_total
     - account_invoice_force_number
     - account_invoice_refund_link
@@ -56,8 +52,7 @@ odoo_role_odoo_community_modules_dict:
     - account_payment_return_import_iso20022
     - account_payment_sale
     - account_tax_balance
-    - account_type_menu
-    - auth_keycloack
+    - auth_oidc
     - base_bank_from_iban
     - base_iso3166
     - base_location
@@ -68,8 +63,6 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
-    - l10n_es_account_invoice_sequence
-    - l10n_es_cooperator
     - l10n_es_facturae
     - l10n_es_mis_report
     - l10n_es_partner
@@ -84,10 +77,8 @@ odoo_role_odoo_community_modules_dict:
     - web_advanced_search
     - web_decimal_numpad_dot
     - web_environment_ribbon  
-    - web_favicon
     - web_no_bubble
     - web_responsive
-    - web_searchbar_full_width
 
 # Odoo provisioning
 odoo_provisioning_version: "v0.7.15"
