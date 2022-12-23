@@ -2,7 +2,7 @@
 This repository stores hosts informations and related variables for this specific instance of Odoo.
 ## Requirements
 
-1. Clone this repo and [odoo-provisioning](https://gitlab.com/coopdevs/odoo-provisioning) in the same directory
+1. Clone this repo and [odoo-provisioning](https://git.coopdevs.org/coopdevs/odoo/odoo-provisioning/odoo-provisioning) in the same directory
 
 1.2. Create a folder in the same directory `mkdir -p  odoo-ce/singulars` _this step will be clone a repo in the future_
 
