@@ -27,6 +27,7 @@ odoo14-addon-base-location==14.0.1.2.5.dev6
 odoo14-addon-base-location-geonames-import==14.0.1.0.3.dev2
 odoo14-addon-base-technical-features==14.0.1.1.2.dev1
 odoo14-addon-base-user-role==14.0.2.5.1
+odoo14-addon-base-user-role-company==14.0.2.0.1
 odoo14-addon-currency-rate-update==14.0.1.2.1
 odoo14-addon-date-range==14.0.2.1.2.dev3
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
@@ -58,9 +59,5 @@ odoo14-addon-web-timeline==14.0.2.0.1.dev1
 odoo14-addon-web-widget-image-download==14.0.1.0.1.dev4
 odoo14-addon-auth-oidc==14.0.1.0.3.dev1
 odoo14-addon-mass-mailing-list-dynamic==14.0.1.0.1.dev4
-#odoo12-addon-community-maps==12.0.0.2.4
 odoo14-addon-cooperator==14.0.1.5.2
 odoo14-addon-cooperator-website==14.0.1.1.1
-git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-es&subdirectory=setup/l10n_es_cooperator
-#odoo12-addon-ce==12.0.0.0.14
-#python-slugify==5.0.2
