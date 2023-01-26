@@ -21,6 +21,7 @@ odoo14-addon-account-payment-return-import-iso20022==14.0.1.0.1.dev2
 odoo14-addon-account-payment-sale==14.0.1.0.1.dev14
 odoo14-addon-account-tax-balance==14.0.1.2.6
 odoo14-addon-account-menu==14.0.1.1.2.dev5
+odoo14-addon-account-multicompany-easy-creation==14.0.1.0.1.dev2
 odoo14-addon-base-bank-from-iban==14.0.1.0.2.dev3
 odoo14-addon-base-iso3166==14.0.1.0.2.dev1
 odoo14-addon-base-location==14.0.1.2.5.dev6
