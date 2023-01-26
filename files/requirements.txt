@@ -12,7 +12,7 @@ odoo14-addon-account-invoice-refund-link==14.0.1.0.3
 odoo14-addon-account-lock-date-update==14.0.2.0.1.dev8
 odoo14-addon-account-payment-mode==14.0.1.1.0
 odoo14-addon-account-payment-order==14.0.1.11.0
-odoo14-addon-account-payment-partner==14.0.1.6.0
+odoo14-addon-account-payment-partner==14.0.1.7.0
 odoo14-addon-account-payment-return==14.0.1.0.5
 odoo14-addon-account-payment-return-import==14.0.1.0.3.dev1
 odoo14-addon-account-payment-return-import-iso20022==14.0.1.0.1.dev2
