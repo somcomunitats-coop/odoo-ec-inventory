@@ -40,7 +40,7 @@ This repository stores hosts informations and related variables for this specifi
    ```
    * production mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=production
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=prod
    ```
 6. Start Odoo
    * development local mode
@@ -53,4 +53,3 @@ This repository stores hosts informations and related variables for this specifi
 7. Now, you can visit:
    * In development http://odoo-ce.local:8069
    * In testing http://lux.somenergia.lan:8069
-   * In production http://ce-singulars.coopedevs.org
