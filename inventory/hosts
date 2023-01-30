@@ -2,10 +2,10 @@
 odoo-ce.local ansible_port=22
 
 [testing]
-lux.somenergia.lan ansible_port=2200
+erp-test.somcomunitats.coop ansible_port=2200
 
 [production]
-odoo-ce-singulars.coopedevs.org ansible_port=2200
+erp.somcomunitats.coop ansible_port=2200
 
 [odoo_servers:children]
 production
