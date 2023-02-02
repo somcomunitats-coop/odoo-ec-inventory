@@ -26,6 +26,7 @@ odoo_role_odoo_core_modules_dict:
     - mass_mailing
     - mass_mailing_crm
     - crm
+    - web
 
 odoo_role_odoo_community_modules_dict:
   shared:
