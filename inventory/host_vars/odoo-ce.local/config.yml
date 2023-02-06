@@ -1,5 +1,5 @@
 ---
-# In development environment a user with same name as your system user will be created
+# In development environment a user with named as as your user will be created
 development_user: "{{ lookup('env', 'USER') }}"
 
 system_administrators:

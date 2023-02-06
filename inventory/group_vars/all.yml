@@ -9,7 +9,9 @@ odoo_role_odoo_dbs: [odoo]
 odoo_role_download_strategy: tar
 odoo_role_odoo_version: "12.0"
 odoo_role_odoo_release: "12.0_2022-02-01"
-odoo_role_odoo_url: "https://gitlab.com/coopdevs/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
+odoo_role_odoo_url: |
+  "https://gitlab.com/coopdevs/OCB/-/archive/{{ odoo_role_odoo_release }}/
+  OCB-{{ odoo_role_odoo_release }}.tar.gz"
 odoo_role_odoo_core_modules_dict:
   shared:
     - base
@@ -84,7 +86,7 @@ odoo_role_odoo_community_modules_dict:
     - report_xlsx
     - web_advanced_search
     - web_decimal_numpad_dot
-    - web_environment_ribbon  
+    - web_environment_ribbon
     - web_favicon
     - web_no_bubble
     - web_responsive
@@ -98,7 +100,8 @@ nginx_configs:
   upstream:
     - upstream odoo { server 127.0.0.1:8069; }
 
-# Work-around to have enabled backups. Beware that this enables the web db manager. It's the same thing.
+# Work-around to have enabled backups.
+# Beware that this enables the web db manager. It's the same thing.
 odoo_role_list_db: true
 
 nginx_sites:
