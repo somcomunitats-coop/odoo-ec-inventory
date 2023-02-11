@@ -68,8 +68,8 @@ python-slugify==5.0.2
 odoo12-addon-community-maps==12.0.0.2.4
 odoo12-addon-community-maps-landings==12.0.0.0.3.dev1
 odoo12-addon-community-maps==12.0.0.2.4
-git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop&subdirectory=setup/cooperator
-git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-website&subdirectory=setup/cooperator_website
+odoo12-addon-cooperator==12.0.6.3.1
+odoo12-addon-cooperator-website==12.0.3.2.0.99.dev3
 git+https://github.com/coopiteasy/vertical-cooperative@12.0#egg=odoo12-addon-easy-my-coop-es&subdirectory=setup/l10n_es_cooperator
 odoo12-addon-ce==12.0.0.0.17
 python-slugify==5.0.2
