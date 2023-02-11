@@ -2,6 +2,8 @@
 # Use python3 interpreter
 ansible_python_interpreter: "/usr/bin/python3"
 
+firewall_enabled: False
+security_enabled: False
 # Odoo vars
 odoo_role_odoo_user: odoo
 odoo_role_odoo_dbs: [odoo]
