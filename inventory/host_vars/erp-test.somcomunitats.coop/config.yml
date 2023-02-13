@@ -6,22 +6,23 @@ domains:
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"
-letsencrypt_enabled: false
+letsencrypt_enabled: False
 
-# Set 'development_environment' to "true" to skip SSL and nginx tasks
-development_environment: true
+# Set 'development_environment' to "True" to skip SSL and nginx tasks
+development_environment: False
 
 # Proxy and binding settings
 odoo_role_odoo_http_interface: "127.0.0.1"
-odoo_role_odoo_proxy_mode: true
+odoo_role_odoo_proxy_mode: True
 
 # Change default SSH port
 security_ssh_port: 2200
 
-monitoring_enabled: false
-backups_role_enabled: false
+monitoring_enabled: False
+backups_role_enabled: False
+security_enabled: False
 
 # Sentry
-odoo_role_enable_sentry: true
+odoo_role_enable_sentry: True
 
 odoo_role_test_dbs: ["odoo"]
