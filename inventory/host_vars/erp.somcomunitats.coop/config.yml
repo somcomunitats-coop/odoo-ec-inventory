@@ -2,7 +2,7 @@
 developers: []
 
 domains:
-  - odoo.somenergia.coop
+  - erp.somcomunitats.coop
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"

@@ -2,7 +2,7 @@
 developers: []
 
 domains:
-  - lux.somenergia.lan
+  - erp-test.somcomunitats.coop
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"
