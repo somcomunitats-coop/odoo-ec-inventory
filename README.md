@@ -53,3 +53,8 @@ This repository stores hosts informations and related variables for this specifi
 7. Now, you can visit:
    * In development http://odoo-ce.local:8069
    * In testing http://lux.somenergia.lan:8069
+   * In production http://erp-prod.somcomunitats.coop
+
+### Tips
+You can skip the NGINX related task by adding `--skip-tags "nginx"` to the
+`ansible-playbook` command.
