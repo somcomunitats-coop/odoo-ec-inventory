@@ -53,7 +53,6 @@ odoo14-addon-mail-tracking==14.0.2.0.4.dev1
 odoo14-addon-mass-editing==14.0.1.1.2
 odoo14-addon-mis-builder==14.0.4.1.2.dev2
 odoo14-addon-mis-builder-budget==14.0.4.0.2.dev5
-odoo14-addon-partner-external-map==14.0.1.0.1.dev2
 odoo14-addon-partner-firstname==14.0.1.1.1.dev4
 odoo14-addon-report-py3o==14.0.1.0.3
 odoo14-addon-report-xlsx==14.0.1.0.10
