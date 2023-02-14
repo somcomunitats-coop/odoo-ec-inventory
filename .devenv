@@ -15,6 +15,5 @@ DEVENV_GROUP="odoo"
 PROJECT_NAME="energy_communities"
 PROJECT_PATH="${PWD%/*}/odoo-ce/$PROJECT_NAME"
 declare -a OTHER_PROJECTS_PATHS=(
-""
 )
 BASE_PATH="/opt/odoo_modules"
