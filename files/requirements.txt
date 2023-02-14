@@ -1,5 +1,4 @@
 # All the modules needed by OdooCoop and not found in the OCA/OCB core
-# xmlsig==0.1.4
 python-keycloak==2.9.0
 odoo14-addon-account-asset-management==14.0.2.8.0
 odoo14-addon-account-banking-mandate==14.0.1.2.0
