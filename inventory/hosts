@@ -2,10 +2,10 @@
 odoo14-ce.local ansible_port=22
 
 [test]
-erp-test.somcomunitats.coop ansible_port=2200   ansible_user=singulars
+erp-testing.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
 [prod]
-erp-prod.somcomunitats.coop ansible_port=2200   ansible_user=cedev
+erp-prod.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
 [odoo_servers:children]
 dev
