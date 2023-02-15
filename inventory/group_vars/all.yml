@@ -67,6 +67,14 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
+    - l10n_es_aeat
+    - l10n_es_aeat_mod111
+    - l10n_es_aeat_mod190
+    - l10n_es_aeat_mod115
+    - l10n_es_aeat_mod123
+    - l10n_es_aeat_mod303
+    - l10n_es_aeat_mod390
+    - l10n_es_aeat_mod347
     - l10n_es_cooperator
     - l10n_es_facturae
     - l10n_es_mis_report
