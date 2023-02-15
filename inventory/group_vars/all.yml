@@ -73,7 +73,6 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_aeat_mod303
     - l10n_es_aeat_mod390
     - l10n_es_aeat_mod347
-    - l10n_es_cooperator
     - l10n_es_facturae
     - l10n_es_mis_report
     - l10n_es_partner
