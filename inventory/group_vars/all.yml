@@ -2,6 +2,8 @@
 # Use python3 interpreter
 ansible_python_interpreter: "/usr/bin/python3"
 
+firewall_enabled: False
+security_enabled: False
 # Odoo vars
 odoo_role_odoo_user: odoo
 odoo_role_odoo_dbs: [odoo]
@@ -88,7 +90,6 @@ odoo_role_odoo_community_modules_dict:
     - report_xlsx
     - web_advanced_search
     - web_decimal_numpad_dot
-    - web_environment_ribbon  
     - web_no_bubble
     - web_responsive
 
@@ -100,7 +101,8 @@ nginx_configs:
   upstream:
     - upstream odoo { server 127.0.0.1:8069; }
 
-# Work-around to have enabled backups. Beware that this enables the web db manager. It's the same thing.
+# Work-around to have enabled backups.
+# Beware that this enables the web db manager. It's the same thing.
 odoo_role_list_db: true
 
 nginx_sites:
@@ -133,3 +135,6 @@ nginx_sites:
       }
       gzip_types text/css text/less text/plain text/xml application/xml application/json application/javascript;
       gzip on;
+wkhtmltox_version_jammy: "0.12.6.1-2"
+wkhtmltox_version_bionic: "0.12.6.1"
+wkhtmltox_version: "{% if ansible_distribution_release in ['jammy', 'bullseye'] %}{{ wkhtmltox_version_jammy }}{% else %}{{wkhtmltox_version_bionic}}{% endif %}"
