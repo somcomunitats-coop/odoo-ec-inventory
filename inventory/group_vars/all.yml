@@ -61,6 +61,9 @@ odoo_role_odoo_community_modules_dict:
     - base_technical_features
     - base_user_role
     - base_user_role_company
+    - contract
+    - contract_payment_mode
+    - contract_variable_quantity
     - date_range
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
