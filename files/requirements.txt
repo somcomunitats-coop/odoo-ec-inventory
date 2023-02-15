@@ -31,6 +31,9 @@ odoo14-addon-base-user-role==14.0.2.5.1
 odoo14-addon-base-user-role-company==14.0.2.0.1
 odoo14-addon-base-rest==14.0.4.8.1
 odoo14-addon-base-rest-auth-api-key==14.0.1.0.2
+odoo14-addon-contract==14.0.2.9.4.dev2
+odoo14-addon-contract-payment-mode==14.0.1.1.1
+odoo14-addon-contract-variable-quantity==14.0.1.0.1.dev5
 odoo14-addon-date-range==14.0.2.1.2.dev3
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4
