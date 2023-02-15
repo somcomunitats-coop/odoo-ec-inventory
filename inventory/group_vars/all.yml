@@ -62,6 +62,7 @@ odoo_role_odoo_community_modules_dict:
     - contract_payment_mode
     - contract_variable_quantity
     - date_range
+    - energy_communities
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
