@@ -69,13 +69,7 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
     - l10n_es_aeat
-    - l10n_es_aeat_mod111
-    - l10n_es_aeat_mod190
-    - l10n_es_aeat_mod115
-    - l10n_es_aeat_mod123
     - l10n_es_aeat_mod303
-    - l10n_es_aeat_mod390
-    - l10n_es_aeat_mod347
     - l10n_es_facturae
     - l10n_es_mis_report
     - l10n_es_partner
@@ -136,5 +130,5 @@ nginx_sites:
       gzip_types text/css text/less text/plain text/xml application/xml application/json application/javascript;
       gzip on;
 wkhtmltox_version_jammy: "0.12.6.1-2"
-wkhtmltox_version_bionic: "0.12.6.1"
+wkhtmltox_version_bionic: "0.12.6-1"
 wkhtmltox_version: "{% if ansible_distribution_release in ['jammy', 'bullseye'] %}{{ wkhtmltox_version_jammy }}{% else %}{{wkhtmltox_version_bionic}}{% endif %}"
