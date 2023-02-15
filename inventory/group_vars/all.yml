@@ -41,9 +41,6 @@ odoo_role_odoo_community_modules_dict:
     - account_due_list
     - account_financial_report
     - account_fiscal_year
-    - account_invoice_check_total
-    - account_invoice_force_number
-    - account_invoice_refund_link
     - account_lock_date_update
     - account_payment_mode
     - account_payment_order
@@ -61,6 +58,9 @@ odoo_role_odoo_community_modules_dict:
     - base_technical_features
     - base_user_role
     - base_user_role_company
+    - contract
+    - contract_payment_mode
+    - contract_variable_quantity
     - date_range
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
@@ -73,7 +73,6 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_aeat_mod303
     - l10n_es_aeat_mod390
     - l10n_es_aeat_mod347
-    - l10n_es_cooperator
     - l10n_es_facturae
     - l10n_es_mis_report
     - l10n_es_partner
@@ -92,7 +91,7 @@ odoo_role_odoo_community_modules_dict:
     - web_responsive
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.7.15"
+odoo_provisioning_version: "v0.7.16"
 
 # Nginx configuration
 nginx_configs:

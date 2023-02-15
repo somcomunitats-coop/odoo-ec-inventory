@@ -1,5 +1,4 @@
 # All the modules needed by OdooCoop and not found in the OCA/OCB core
-# xmlsig==0.1.4
 python-keycloak==2.9.0
 odoo14-addon-account-asset-management==14.0.2.8.0
 odoo14-addon-account-banking-mandate==14.0.1.2.0
@@ -9,9 +8,6 @@ odoo14-addon-account-banking-sepa-direct-debit==14.0.1.3.3
 odoo14-addon-account-due-list==14.0.1.1.0
 odoo14-addon-account-financial-report==14.0.3.4.1
 odoo14-addon-account-fiscal-year==14.0.1.2.0
-odoo14-addon-account-invoice-check-total==14.0.1.0.1
-odoo14-addon-account-invoice-force-number==14.0.1.0.1
-odoo14-addon-account-invoice-refund-link==14.0.1.0.3
 odoo14-addon-account-lock-date-update==14.0.2.0.1.dev8
 odoo14-addon-account-payment-mode==14.0.1.1.0
 odoo14-addon-account-payment-order==14.0.1.11.0
@@ -32,7 +28,9 @@ odoo14-addon-base-user-role==14.0.2.5.1
 odoo14-addon-base-user-role-company==14.0.2.0.1
 odoo14-addon-base-rest==14.0.4.8.1
 odoo14-addon-base-rest-auth-api-key==14.0.1.0.2
-odoo14-addon-currency-rate-update==14.0.1.2.1
+odoo14-addon-contract==14.0.2.9.4.dev2
+odoo14-addon-contract-payment-mode==14.0.1.1.1
+odoo14-addon-contract-variable-quantity==14.0.1.0.1.dev5
 odoo14-addon-date-range==14.0.2.1.2.dev3
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4
@@ -56,8 +54,6 @@ odoo14-addon-mail-tracking==14.0.2.0.4.dev1
 odoo14-addon-mass-editing==14.0.1.1.2
 odoo14-addon-mis-builder==14.0.4.1.2.dev2
 odoo14-addon-mis-builder-budget==14.0.4.0.2.dev5
-odoo14-addon-mis-builder-demo==14.0.3.1.4.dev1
-odoo14-addon-partner-external-map==14.0.1.0.1.dev2
 odoo14-addon-partner-firstname==14.0.1.1.1.dev4
 odoo14-addon-report-py3o==14.0.1.0.3
 odoo14-addon-report-xlsx==14.0.1.0.10
