@@ -52,7 +52,7 @@ This repository stores hosts informations and related variables for this specifi
    ```
 8. Now, you can visit:
    * In development http://odoo14-ce.local:8069
-   * In testing http://erp-test.somcomunitats.coop
+   * In testing http://erp-testing.somcomunitats.coop/
    * In production http://erp-prod.somcomunitats.coop
 
 ### Tips
