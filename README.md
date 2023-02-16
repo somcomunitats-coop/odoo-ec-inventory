@@ -36,7 +36,7 @@ This repository stores hosts informations and related variables for this specifi
    ```
    * testing mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=testing
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=test
    ```
    * production mode
    ```sh
