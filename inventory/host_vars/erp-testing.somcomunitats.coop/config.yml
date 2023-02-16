@@ -6,7 +6,6 @@ domains:
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"
-letsencrypt_enabled: False
 
 # Set 'development_environment' to "True" to skip SSL and nginx tasks
 development_environment: False
