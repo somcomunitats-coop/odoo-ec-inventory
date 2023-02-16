@@ -4,19 +4,19 @@ This repository stores hosts informations and related variables for this specifi
 
 1. Clone this repo and [odoo-provisioning](https://git.coopdevs.org/coopdevs/odoo/odoo-provisioning/odoo-provisioning) in the same directory
 
-1.2. Create a folder in the same directory `mkdir -p  odoo-ce/singulars` _this step will be clone a repo in the future_
+2. Clone [odoo-ce](https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce) in the same directory
 
-2. If you want to test this set up locally, install [devenv](https://github.com/coopdevs/devenv/) and do:
+3. If you want to test this set up locally, install [devenv](https://github.com/coopdevs/devenv/) and do:
    ```sh
    cd odoo-ce-inventory
    devenv # this creates the lxc container and sets its hostname
    ```
-3. Go to `odoo-provisioning` directory and install its Ansible dependencies:
+4. Go to `odoo-provisioning` directory and install its Ansible dependencies:
    ```sh
    cd ../odoo-provisioning/
    ansible-galaxy install -r requirements.yml
    ```
-4. Execute playbook sys_admins to create users
+5. Execute playbook sys_admins to create users
    * development local mode
     ```sh
     ansible-playbook playbooks/sys_admins.yml -i ../odoo-ce-inventory/inventory/hosts --limit=dev --user=root
@@ -27,7 +27,7 @@ This repository stores hosts informations and related variables for this specifi
     # You will need ssh root enabled and package 'sshpass' installed in your machine
     ansible-playbook playbooks/sys_admins.yml -i ../odoo-ce-inventory/inventory/hosts --limit=testing --user=root -k
     ```
-5. Run `ansible-playbook` command pointing to the `inventory/hosts` file of this repository:
+6. Run `ansible-playbook` command pointing to the `inventory/hosts` file of this repository:
    * development local mode
    ```sh
    # tell it to keep it local with limit=dev
@@ -36,13 +36,13 @@ This repository stores hosts informations and related variables for this specifi
    ```
    * testing mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=testing
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=test
    ```
    * production mode
    ```sh
    ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=prod
    ```
-6. Start Odoo
+7. Start Odoo
    * development local mode
    ```sh
    sudo su - odoo
@@ -50,9 +50,9 @@ This repository stores hosts informations and related variables for this specifi
    pyenv activate odoo
    ./odoo-bin -c /etc/odoo/odoo.conf -d odoo
    ```
-7. Now, you can visit:
-   * In development http://odoo-ce.local:8069
-   * In testing http://lux.somenergia.lan:8069
+8. Now, you can visit:
+   * In development http://odoo14-ce.local:8069
+   * In testing http://erp-test.somcomunitats.coop
    * In production http://erp-prod.somcomunitats.coop
 
 ### Tips
