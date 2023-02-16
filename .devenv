@@ -1,7 +1,7 @@
 # Vars to use in lxc-create
 NAME="odoo14-ce"
 DISTRIBUTION="ubuntu"
-RELEASE="bionic"
+RELEASE="focal"
 ARCH="amd64"
 HOST="$NAME.local"
 
