@@ -4,7 +4,7 @@ This repository stores hosts informations and related variables for this specifi
 
 1. Clone this repo and [odoo-provisioning](https://git.coopdevs.org/coopdevs/odoo/odoo-provisioning/odoo-provisioning) in the same directory
 
-2. Clone this repo and odoo-provisioning in the same directory
+2. Clone [odoo-ce](https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce) in the same directory
 
 3. If you want to test this set up locally, install [devenv](https://github.com/coopdevs/devenv/) and do:
    ```sh
