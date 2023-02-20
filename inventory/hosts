@@ -1,5 +1,5 @@
 [dev]
-odoo14-ce.local ansible_port=22
+odoo-ce.local ansible_port=22
 
 [test]
 erp-testing.somcomunitats.coop ansible_port=2200 ansible_user=cedev
