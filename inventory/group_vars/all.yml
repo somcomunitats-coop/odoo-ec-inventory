@@ -51,6 +51,7 @@ odoo_role_odoo_community_modules_dict:
     - account_payment_return_import
     - account_payment_return_import_iso20022
     - account_payment_sale
+    - account_statement_import_txt_xlsx
     - account_tax_balance
     - auth_oidc
     - base_bank_from_iban
