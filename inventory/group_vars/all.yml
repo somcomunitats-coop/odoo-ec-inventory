@@ -95,7 +95,7 @@ odoo_role_odoo_community_modules_dict:
     - web_responsive
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.7.16"
+odoo_provisioning_version: "v0.7.17"
 
 # Nginx configuration
 nginx_configs:
