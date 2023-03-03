@@ -95,12 +95,17 @@ odoo_role_odoo_community_modules_dict:
     - web_responsive
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.7.16"
+odoo_provisioning_version: "v0.7.17"
 
 # Nginx configuration
 nginx_configs:
   upstream:
     - upstream odoo { server 127.0.0.1:8069; }
+
+## Inventory-level nginx_http_extra_params.
+nginx_inv_extra_params:
+  - log_format main '$remote_addr - $remote_user [$time_local] "$request" ''$status $body_bytes_sent "$http_referer" ''"$http_user_agent" "$http_x_forwarded_for"'
+  - log_format vhost_main '$server_name $remote_addr - $remote_user [$time_local] ' '"$request" $status $body_bytes_sent ' '"$http_referer" "$http_user_agent" "$http_x_forwarded_for"'
 
 # Work-around to have enabled backups.
 # Beware that this enables the web db manager. It's the same thing.
