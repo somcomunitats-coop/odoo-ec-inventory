@@ -58,3 +58,6 @@ This repository stores hosts informations and related variables for this specifi
 ### Tips
 You can skip the NGINX related task by adding `--skip-tags "nginx"` to the
 `ansible-playbook` command.
+
+You can run only the odoo-role task by adding `--tag odoo-role` to the `ansible-playbook` command.
+
