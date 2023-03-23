@@ -53,6 +53,8 @@ odoo_role_odoo_community_modules_dict:
     - account_payment_sale
     - account_statement_import_txt_xlsx
     - account_tax_balance
+    - account_menu
+    - account_multicompany_easy_creation
     - auth_oidc
     - base_bank_from_iban
     - base_iso3166
@@ -61,6 +63,8 @@ odoo_role_odoo_community_modules_dict:
     - base_technical_features
     - base_user_role
     - base_user_role_company
+    - base_rest
+    - base_rest_auth_api_key
     - contract
     - contract_payment_mode
     - contract_variable_quantity
@@ -78,21 +82,27 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_aeat_mod390
     - l10n_es_aeat_mod347
     - l10n_es_facturae
+    - l10n_es_irnr
     - l10n_es_mis_report
     - l10n_es_partner
     - l10n_es_partner_mercantil
     - l10n_es_toponyms
+    - l10n_es_vat_book
     - l10n_es_cooperator
     - mail_tracking
     - mass_editing
     - mis_builder
     - mis_builder_budget
+    - partner_firstname
     - report_py3o
     - report_xlsx
     - web_advanced_search
     - web_decimal_numpad_dot
+    - web_environment_ribbon
     - web_no_bubble
     - web_responsive
+    - web_timeline
+    - web_widget_image_download
 
 # Odoo provisioning
 odoo_provisioning_version: "v0.7.17"
