@@ -29,12 +29,7 @@ odoo_role_odoo_core_modules_dict:
     - web
 
 odoo_role_odoo_community_modules_dict:
-  shared:
-    - cooperator
-    - cooperator_website
-    - mass_mailing_list_dynamic
-    - mass_mailing_partner
-    - mass_mailing_resend
+  shared:  
     - account_asset_management
     - account_banking_mandate
     - account_banking_pain_base
@@ -65,9 +60,12 @@ odoo_role_odoo_community_modules_dict:
     - base_user_role_company
     - base_rest
     - base_rest_auth_api_key
+    - community_maps
     - contract
     - contract_payment_mode
     - contract_variable_quantity
+    - cooperator
+    - cooperator_website
     - date_range
     - energy_communities
     - l10n_es_account_asset
@@ -91,6 +89,9 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_cooperator
     - mail_tracking
     - mass_editing
+    - mass_mailing_list_dynamic
+    - mass_mailing_partner
+    - mass_mailing_resend
     - mis_builder
     - mis_builder_budget
     - partner_firstname
