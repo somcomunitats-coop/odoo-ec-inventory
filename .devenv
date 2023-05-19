@@ -12,8 +12,7 @@ DEVENV_GROUP="odoo"
 # in the host machine before executing this script.
 # Else, please clone it from https://gitlab.com/coopdevs/odoo-ce
 
-PROJECT_NAME="energy_communities"
-PROJECT_PATH="${PWD%/*}/odoo-ce/$PROJECT_NAME"
+PROJECT_PATH="${PWD%/*}/odoo-ce/"
 declare -a OTHER_PROJECTS_PATHS=(
 )
 BASE_PATH="/opt/odoo_modules"
