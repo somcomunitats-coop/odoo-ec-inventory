@@ -27,6 +27,8 @@ odoo_role_odoo_core_modules_dict:
     - mass_mailing_crm
     - crm
     - web
+    - base_sparse_field
+    - queue_job
 
 odoo_role_odoo_community_modules_dict:
   shared:  
