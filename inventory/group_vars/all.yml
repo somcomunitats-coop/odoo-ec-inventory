@@ -150,5 +150,14 @@ nginx_sites:
         proxy_redirect off;
         proxy_pass http://odoo;
       }
+      location /longpolling/ {
+        proxy_pass http://127.0.0.1:8072;
+        proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+      }
       gzip_types text/css text/less text/plain text/xml application/xml application/json application/javascript;
       gzip on;
