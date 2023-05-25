@@ -62,7 +62,6 @@ odoo_role_odoo_community_modules_dict:
     - base_user_role_company
     - base_rest
     - base_rest_auth_api_key
-    - community_maps
     - contract
     - contract_payment_mode
     - contract_variable_quantity
