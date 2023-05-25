@@ -32,7 +32,7 @@ odoo14-addon-contract==14.0.2.9.4.dev2
 odoo14-addon-contract-payment-mode==14.0.1.1.1
 odoo14-addon-contract-variable-quantity==14.0.1.0.1.dev5
 odoo14-addon-date-range==14.0.2.1.2.dev3
-git+https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce@v14.0.1.1.4#egg=odoo14-addon-energy-communities&subdirectory=setup/energy_communities
+git+https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce@dev#egg=odoo14-addon-energy-communities&subdirectory=setup/energy_communities
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4
 odoo14-addon-l10n-es-account-banking-sepa-fsdd==14.0.1.0.1.dev5
