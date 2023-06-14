@@ -69,6 +69,10 @@ odoo_role_odoo_community_modules_dict:
     - cooperator_website
     - date_range
     - energy_communities
+    - energy_project
+    - energy_project_energy_communities
+    - energy_selfconsumption
+    - energy_selfconsumption_cooperator
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
