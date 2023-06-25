@@ -32,3 +32,12 @@ odoo_role_odoo_proxy_mode: False
 
 # Change default SSH port
 security_ssh_port: 22
+
+odoo_role_odoo_project_packages:
+    - '-e file:///opt/odoo_modules/setup/cooperator_account_payment'
+    - '-e file:///opt/odoo_modules/setup/cooperator_account_banking_mandate'
+    - '-e file:///opt/odoo_modules/setup/energy_project'
+    - '-e file:///opt/odoo_modules/setup/energy_project_energy_communities'
+    - '-e file:///opt/odoo_modules/setup/energy_selfconsumption'
+    - '-e file:///opt/odoo_modules/setup/energy_selfconsumption_cooperator'
+    - '-e file:///opt/odoo_modules/setup/energy_communities'

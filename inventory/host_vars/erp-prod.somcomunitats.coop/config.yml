@@ -31,3 +31,6 @@ odoo_role_channels: "root:4"
 
 # Workers
 odoo_role_workers: 4
+
+odoo_role_odoo_project_packages:
+    - odoo14-addon-energy-communities==14.0.1.1.13

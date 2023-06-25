@@ -32,3 +32,6 @@ odoo_role_channels: "root:4"
 
 # Workers
 odoo_role_workers: 4
+
+odoo_role_odoo_project_packages:
+    - git+https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce@release/14.0.1.1.14#egg=odoo14-addon-energy-communities&subdirectory=setup/energy_communities
