@@ -31,7 +31,7 @@ odoo14-addon-contract==14.0.2.9.4.dev2
 odoo14-addon-contract-payment-mode==14.0.1.1.1
 odoo14-addon-contract-variable-quantity==14.0.1.0.1.dev5
 odoo14-addon-date-range==14.0.2.1.2.dev3
-odoo14-addon-energy-communities==14.0.1.1.6
+odoo14-addon-energy-communities==14.0.1.1.10
 odoo14-addon-energy-project==14.0.1.1.1
 odoo14-addon-energy-project-energy-communities==14.0.1.1.1
 odoo14-addon-energy-selfconsumption==14.0.1.1.1
