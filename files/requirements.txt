@@ -72,6 +72,5 @@ odoo14-addon-auth-oidc==14.0.1.0.3.dev1
 odoo14-addon-mass-mailing-list-dynamic==14.0.1.0.1.dev4
 odoo14-addon-cooperator==14.0.1.5.2
 odoo14-addon-cooperator-website==14.0.1.1.1
-# This only works in pip install git+https://github.com/DaniilDigtyar/cooperative@14.0-ADD-l10n-es-cooperator#egg=odoo14-addon-l10n-es-cooperator\&subdirectory=setup/l10n_es_cooperator
-git+https://github.com/DaniilDigtyar/cooperative@14.0-ADD-l10n-es-cooperator#egg=odoo14-addon-l10n-es-cooperator&subdirectory=setup/l10n_es_cooperator
+odoo14-addon-l10n-es-cooperator==14.0.0.1.1.dev2
 git+https://github.com/OCA/bank-statement-import@14.0#egg=odoo14-addon-account-statement-import-txt-xlsx&subdirectory=setup/account_statement_import_txt_xlsx
