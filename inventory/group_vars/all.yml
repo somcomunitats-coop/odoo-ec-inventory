@@ -110,7 +110,7 @@ odoo_role_odoo_community_modules_dict:
     - web_widget_image_download
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.7.17"
+odoo_provisioning_version: "v0.7.20"
 
 # Nginx configuration
 nginx_configs:
