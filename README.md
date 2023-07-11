@@ -2,7 +2,7 @@
 This repository stores hosts informations and related variables for this specific instance of Odoo.
 ## Requirements
 
-1. Clone this repo and [odoo-provisioning](https://git.coopdevs.org/coopdevs/odoo/odoo-provisioning/odoo-provisioning) in the same directory
+1. Clone this repo and [odoo-provisioning](https://git.coopdevs.org/coopdevs/odoo/odoo-provisioning/odoo-provisioning#requirements) in the same directory and install the environment requirements
 
 2. Clone [odoo-ce](https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce) in the same directory
 
@@ -45,13 +45,18 @@ This repository stores hosts informations and related variables for this specifi
 7. Start Odoo
    * development local mode
    ```sh
-   sudo su - odoo
+   # Make sure the lxc container is started
+   sudo lxc-start odoo-ce
+   ssh odoo@odoo-ce.local
+   ```
+   Inside the container
+   ```sh
    cd /opt/odoo
    pyenv activate odoo
    ./odoo-bin -c /etc/odoo/odoo.conf -d odoo
    ```
 8. Now, you can visit:
-   * In development http://odoo14-ce.local:8069
+   * In development http://odoo-ce.local:8069
    * In testing http://erp-testing.somcomunitats.coop
    * In production http://erp-prod.somcomunitats.coop
 
