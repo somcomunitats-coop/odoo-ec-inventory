@@ -148,7 +148,6 @@ nginx_sites:
       proxy_set_header X-Forwarded-Proto $scheme;
       proxy_set_header X-Real-IP $remote_addr;
       underscores_in_headers on;
-      ssl on;
       access_log /var/log/nginx/odoo.access.log;
       error_log /var/log/nginx/odoo.error.log;
       location / {
