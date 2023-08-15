@@ -1,6 +1,9 @@
 [dev]
 odoo-ce.local ansible_port=22
 
+[dev2]
+erp-dev2.somcomunitats.coop ansible_port=2200 ansible_user=cedev
+
 [dev3]
 erp-dev3.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
@@ -12,6 +15,7 @@ erp-prod.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
 [odoo_servers:children]
 dev
+dev2
 dev3
 test
 prod
