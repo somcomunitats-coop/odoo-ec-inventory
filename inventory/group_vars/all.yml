@@ -126,6 +126,10 @@ nginx_inv_extra_params:
 # Beware that this enables the web db manager. It's the same thing.
 odoo_role_list_db: true
 
+# Support for loading system-wide modules
+odoo_role_odoo_server_wide_modules: ["base","web","base_sparse_field","queue_job"]
+
+
 nginx_sites:
   odoo:
     - |
