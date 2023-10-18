@@ -37,7 +37,7 @@ odoo_role_odoo_community_modules_dict:
     - account_banking_pain_base
     - account_banking_sepa_credit_transfer
     - account_banking_sepa_direct_debit
-    - account-chart-update
+    - account_chart_update
     - account_due_list
     - account_financial_report
     - account_fiscal_year
