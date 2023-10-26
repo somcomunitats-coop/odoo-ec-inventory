@@ -1,6 +1,6 @@
 python-keycloak==2.9.0
 python-slugify==8.0.1
-Faker==19.11.0
+Faker==18.13.0
 odoo14-addon-account-asset-management==14.0.2.8.0
 odoo14-addon-account-banking-mandate==14.0.1.2.0
 odoo14-addon-account-banking-pain-base==14.0.1.0.2
