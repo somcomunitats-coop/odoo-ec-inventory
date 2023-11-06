@@ -64,6 +64,7 @@ odoo_role_odoo_community_modules_dict:
     - base_rest_auth_api_key
     - contract
     - contract_payment_mode
+    - contract_queue_job
     - contract_variable_quantity
     - cooperator
     - cooperator_website
