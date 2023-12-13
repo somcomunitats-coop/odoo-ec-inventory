@@ -2,7 +2,7 @@
 developers: []
 
 domains:
-  - erp-testing.somcomunitats.coop
+  - erp-preprod.somcomunitats.coop
 
 # Let's Encrypt conf
 certificate_authority_email: "info@coopdevs.org"
