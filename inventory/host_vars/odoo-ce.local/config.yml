@@ -32,3 +32,7 @@ odoo_role_odoo_proxy_mode: False
 
 # Change default SSH port
 security_ssh_port: 22
+
+# Python version
+odoo_role_python_version: "3.8.18"
+
