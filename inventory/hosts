@@ -13,6 +13,9 @@ erp-dev3.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 [test]
 erp-testing.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
+[preprod]
+erp-preprod.somcomunitats.coop ansible_port=2200 ansible_user=cedev
+
 [prod]
 erp-prod.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
@@ -22,4 +25,5 @@ dev1
 dev2
 dev3
 test
+preprod
 prod

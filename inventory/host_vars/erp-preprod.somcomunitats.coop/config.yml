@@ -2,6 +2,7 @@
 developers: []
 
 domains:
+  - erp-preprod.somcomunitats.coop
   - erp-testing.somcomunitats.coop
 
 # Let's Encrypt conf

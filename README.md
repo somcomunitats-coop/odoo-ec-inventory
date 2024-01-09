@@ -36,7 +36,7 @@ This repository stores hosts informations and related variables for this specifi
    ```
    * testing mode
    ```sh
-   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=test
+   ansible-playbook playbooks/provision.yml -i ../odoo-ce-inventory/inventory/hosts --ask-vault-pass --limit=preprod
    ```
    * production mode
    ```sh
@@ -57,7 +57,7 @@ This repository stores hosts informations and related variables for this specifi
    ```
 8. Now, you can visit:
    * In development http://odoo-ce.local:8069
-   * In testing http://erp-testing.somcomunitats.coop
+   * In testing http://erp-preprod.somcomunitats.coop
    * In production http://erp-prod.somcomunitats.coop
 
 ### Tips
