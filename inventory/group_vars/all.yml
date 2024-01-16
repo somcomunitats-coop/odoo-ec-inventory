@@ -80,6 +80,7 @@ odoo_role_odoo_community_modules_dict:
     - energy_project
     - energy_project_energy_communities
     - energy_selfconsumption
+    - energy_selfconsumption_api
     - energy_selfconsumption_cooperator
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
