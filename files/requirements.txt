@@ -61,6 +61,7 @@ odoo14-addon-mis-builder-budget==14.0.4.0.2.dev5
 odoo14-addon-partner-firstname==14.0.1.1.1.dev4
 odoo14-addon-report-py3o==14.0.1.0.3
 odoo14-addon-report-xlsx==14.0.1.0.10
+odoo14-addon-web-access-rule-buttons==14.0.1.0.2.dev1
 odoo14-addon-web-advanced-search==14.0.1.0.2.dev3
 odoo14-addon-web-decimal-numpad-dot==14.0.1.0.1.dev2
 odoo14-addon-web-environment-ribbon==14.0.1.0.1.dev8
