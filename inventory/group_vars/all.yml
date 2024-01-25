@@ -6,9 +6,11 @@ ansible_python_interpreter: "/usr/bin/python3"
 odoo_role_python_version: "3.8.18"
 odoo_role_venv_name: "odoo"
 odoo_role_odoo_venv_path: "/home/{{ odoo_role_odoo_user }}/pyenv/versions/{{ odoo_role_venv_name }}/"
+odoo_role_pip_version: "23.0.1"
 
 firewall_enabled: False
 security_enabled: False
+
 # Odoo vars
 odoo_role_odoo_user: odoo
 odoo_role_odoo_dbs: [odoo]
