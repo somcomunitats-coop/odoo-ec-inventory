@@ -34,3 +34,4 @@ odoo_role_workers: 4
 
 # Customize the Odoo timeouts
 odoo_role_limit_time_real: 300
+odoo_role_limit_time_cpu: 300
