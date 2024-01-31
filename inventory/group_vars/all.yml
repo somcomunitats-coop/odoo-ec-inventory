@@ -110,6 +110,7 @@ odoo_role_odoo_community_modules_dict:
     - partner_firstname
     - report_py3o
     - report_xlsx
+    - web_access_rule_buttons
     - web_advanced_search
     - web_decimal_numpad_dot
     - web_environment_ribbon
