@@ -77,6 +77,8 @@ odoo14-addon-cooperator-website==14.0.1.1.1
 # FastAPI integration
 odoo14-addon-fastapi==14.0.0.0.3
 httpx
+odoo14-addon-energy-selfconsumption-api @ git+https://git.coopdevs.org/coopdevs/comunitats-energetiques/odoo-ce@IMP_fastapi_integration#subdirectory=setup/energy_selfconsumption_api
 
 # This only works in pip install git+https://github.com/DaniilDigtyar/cooperative@14.0-ADD-l10n-es-cooperator#egg=odoo14-addon-l10n-es-cooperator\&subdirectory=setup/l10n_es_cooperator
-git+https://github.com/OCA/bank-statement-import@14.0#egg=odoo14-addon-account-statement-import-txt-xlsx&subdirectory=setup/account_statement_import_txt_xlsx
+
+odoo14-addon-account-statement-import-txt-xlsx @ git+https://github.com/OCA/bank-statement-import@14.0#subdirectory=setup/account_statement_import_txt_xlsx
