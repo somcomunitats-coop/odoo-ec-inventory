@@ -10,6 +10,12 @@ erp-dev2.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 [dev3]
 erp-dev3.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
+[dev4]
+erp-dev4.somcomunitats.coop ansible_port=2200 ansible_user=cedev
+
+[demo]
+erp-demo.somcomunitats.coop ansible_port=2200 ansible_user=cedev
+
 [preprod]
 erp-preprod.somcomunitats.coop ansible_port=2200 ansible_user=cedev
 
@@ -21,5 +27,7 @@ dev
 dev1
 dev2
 dev3
+dev4
+demo
 preprod
 prod
