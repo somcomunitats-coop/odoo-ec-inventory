@@ -16,3 +16,5 @@ PROJECT_PATH="${PWD%/*}/odoo-ce/"
 declare -a OTHER_PROJECTS_PATHS=(
 )
 BASE_PATH="/opt/odoo_modules"
+
+DOWNLOAD_KEYSERVER="hkps://keyserver.ubuntu.com"
