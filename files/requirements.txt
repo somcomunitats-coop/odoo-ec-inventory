@@ -26,7 +26,7 @@ odoo14-addon-base-location==14.0.1.2.5.dev6
 odoo14-addon-base-location-geonames-import==14.0.1.0.3.dev2
 odoo14-addon-base-technical-features==14.0.1.1.2.dev1
 odoo14-addon-base-user-role==14.0.2.5.1
-odoo14-addon-base-user-role-company==14.0.2.0.1
+odoo14-addon-base-user-role-company==14.0.2.0.2
 odoo14-addon-base-rest==14.0.4.8.1
 odoo14-addon-base-rest-auth-api-key==14.0.1.0.2
 odoo14-addon-contract==14.0.2.9.4.dev2
