@@ -34,7 +34,7 @@ odoo14-addon-contract-payment-mode==14.0.1.1.1
 odoo14-addon-contract-queue-job==14.0.1.0.1.dev3
 odoo14-addon-contract-variable-quantity==14.0.1.0.1.dev5
 odoo14-addon-date-range==14.0.2.1.2.dev3
-odoo14-addon-energy-communities==14.0.7.1.0
+odoo14-addon-energy-communities==14.0.8.0.0
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4
 odoo14-addon-l10n-es-account-banking-sepa-fsdd==14.0.1.0.1.dev5
