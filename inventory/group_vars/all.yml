@@ -108,6 +108,7 @@ odoo_role_odoo_community_modules_dict:
     - mass_mailing_resend
     - mis_builder
     - mis_builder_budget
+    - partner_contact_access_link
     - partner_firstname
     - report_py3o
     - report_xlsx
