@@ -73,10 +73,11 @@ odoo_role_odoo_community_modules_dict:
     - contract_payment_mode
     - contract_queue_job
     - contract_variable_quantity
-    - cooperator
     - cooperator_website
     - date_range
     - energy_communities
+    - energy_communities_crm
+    - energy_communities_cooperator
     - energy_communities_mass_mailing
     - energy_project
     - energy_project_energy_communities
