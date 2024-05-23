@@ -29,6 +29,7 @@ odoo_role_odoo_core_modules_dict:
     - base_vat
     - contacts
     - crm
+    - event
     - l10n_es
     - mass_mailing
     - mass_mailing_crm
@@ -36,6 +37,7 @@ odoo_role_odoo_core_modules_dict:
     - purchase
     - queue_job
     - web
+    - website_event
 
 odoo_role_odoo_community_modules_dict:
   shared:
