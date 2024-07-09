@@ -2,8 +2,8 @@
 Faker==18.13.0
 git+https://github.com/OCA/bank-statement-import@14.0#egg=odoo14-addon-account-statement-import-txt-xlsx&subdirectory=setup/account_statement_import_txt_xlsx
 odoo14-addon-account-asset-management==14.0.2.8.0
-odoo14-addon-account-banking-pain-base==14.0.1.0.2
-odoo14-addon-account-banking-sepa-credit-transfer==14.0.1.2.1
+odoo14-addon-account-banking-pain-base==14.0.2.1.1
+odoo14-addon-account-banking-sepa-credit-transfer==14.0.2.0.1
 odoo14-addon-account-chart-update==14.0.2.1.2.dev1
 odoo14-addon-account-due-list==14.0.1.1.0
 odoo14-addon-account-financial-report==14.0.3.4.1
