@@ -127,7 +127,7 @@ nginx_inv_extra_params:
 odoo_role_list_db: true
 
 # Support for loading system-wide modules
-odoo_role_odoo_server_wide_modules: ["base","web","base_sparse_field","queue_job"]
+odoo_role_odoo_server_wide_modules: ["base","base_future_response","web","base_sparse_field","queue_job"]
 
 
 nginx_sites:
