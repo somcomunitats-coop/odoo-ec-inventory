@@ -16,6 +16,7 @@ odoo14-addon-account-payment-return==14.0.1.0.5
 odoo14-addon-account-payment-sale==14.0.1.0.1.dev14
 odoo14-addon-account-tax-balance==14.0.1.2.6
 odoo14-addon-base-bank-from-iban==14.0.1.0.2.dev3
+odoo14-addon-base-future-response==14.0.1.0.2
 odoo14-addon-base-iso3166==14.0.1.0.2.dev1
 odoo14-addon-base-location-geonames-import==14.0.1.0.3.dev2
 odoo14-addon-base-location==14.0.1.2.5.dev6
