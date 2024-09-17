@@ -16,6 +16,7 @@ odoo14-addon-account-payment-return==14.0.1.0.5
 odoo14-addon-account-payment-sale==14.0.1.0.1.dev14
 odoo14-addon-account-tax-balance==14.0.1.2.6
 odoo14-addon-base-bank-from-iban==14.0.1.0.2.dev3
+odoo14-addon-base-future-response==14.0.1.0.2
 odoo14-addon-base-iso3166==14.0.1.0.2.dev1
 odoo14-addon-base-location-geonames-import==14.0.1.0.3.dev2
 odoo14-addon-base-location==14.0.1.2.5.dev6
@@ -24,12 +25,12 @@ odoo14-addon-base-rest==14.0.4.8.1
 odoo14-addon-contract-payment-mode==14.0.1.1.1
 odoo14-addon-cooperator-website==14.0.1.1.1
 odoo14-addon-date-range==14.0.2.1.2.dev3
-odoo14-addon-energy-communities==14.0.9.4.0
-odoo14-addon-energy-communities_api==14.0.2.0.1
-odoo14-addon-energy-communities-cooperator==14.0.1.2.1
-odoo14-addon-energy-communities-crm==14.0.1.1.4
-odoo14-addon-energy-communities-mass-mailing==14.0.0.1.5
-odoo14-addon-energy-selfconsumption==14.0.5.2.0
+odoo14-addon-energy-communities==14.0.9.4.2
+odoo14-addon-energy-communities_api==14.0.2.0.2
+odoo14-addon-energy-communities-cooperator==14.0.1.2.2
+odoo14-addon-energy-communities-crm==14.0.1.1.5
+odoo14-addon-energy-communities-mass-mailing==14.0.0.1.6
+odoo14-addon-energy-selfconsumption==14.0.5.2.2
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-banking-sepa-fsdd==14.0.1.0.1.dev5
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4

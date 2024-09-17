@@ -57,6 +57,7 @@ odoo_role_odoo_community_modules_dict:
     - account_statement_import_txt_xlsx
     - account_tax_balance
     - base_bank_from_iban
+    - base_future_response
     - base_iso3166
     - base_location
     - base_location_geonames_import
