@@ -30,7 +30,7 @@ odoo14-addon-energy-communities_api==14.0.2.0.2
 odoo14-addon-energy-communities-cooperator==14.0.1.2.3
 odoo14-addon-energy-communities-crm==14.0.1.2.0
 odoo14-addon-energy-communities-mass-mailing==14.0.0.1.6
-odoo14-addon-energy-selfconsumption==14.0.5.2.3
+odoo14-addon-energy-selfconsumption==14.0.5.2.4
 odoo14-addon-l10n-es-account-asset==14.0.1.0.1.dev6
 odoo14-addon-l10n-es-account-banking-sepa-fsdd==14.0.1.0.1.dev5
 odoo14-addon-l10n-es-account-statement-import-n43==14.0.1.0.4
