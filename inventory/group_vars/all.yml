@@ -3,10 +3,10 @@
 ansible_python_interpreter: "/usr/bin/python3"
 
 # Venv vars
-odoo_role_python_version: "3.8.18"
+odoo_role_python_version: "3.11.10"
 odoo_role_venv_name: "odoo"
 odoo_role_odoo_venv_path: "/home/{{ odoo_role_odoo_user }}/pyenv/versions/{{ odoo_role_venv_name }}/"
-odoo_role_pip_version: "23.0.1"
+odoo_role_pip_version: "24.2"
 
 firewall_enabled: False
 security_enabled: False
@@ -16,8 +16,8 @@ odoo_role_odoo_user: odoo
 odoo_role_odoo_dbs: [odoo]
 
 odoo_role_download_strategy: tar
-odoo_role_odoo_version: "14.0"
-odoo_role_odoo_release: "14.0_2023-02-16"
+odoo_role_odoo_version: "16.0"
+odoo_role_odoo_release: "16.0_2024-09-14"
 odoo_role_odoo_url: "https://git.coopdevs.org/coopdevs/odoo/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
 odoo_role_odoo_core_modules_dict:
   shared:
@@ -35,7 +35,7 @@ odoo_role_odoo_core_modules_dict:
     - mass_mailing_crm
     - partner_autocomplete
     - purchase
-    - queue_job
+    #- queue_job
     - web
     - website_event
 
@@ -48,16 +48,16 @@ odoo_role_odoo_community_modules_dict:
     - account_due_list
     - account_financial_report
     - account_fiscal_year
-    - account_menu
+    #- account_menu
     - account_payment_mode
     - account_payment_return
     - account_payment_return_import
     - account_payment_return_import_iso20022
     - account_payment_sale
-    - account_statement_import_txt_xlsx
+    #- account_statement_import_txt_xlsx
     - account_tax_balance
     - base_bank_from_iban
-    - base_future_response
+    #- base_future_response
     - base_iso3166
     - base_location
     - base_location_geonames_import
@@ -65,14 +65,14 @@ odoo_role_odoo_community_modules_dict:
     - contract_payment_mode
     - cooperator_website
     - date_range
-    - energy_communities
-    - energy_communities_crm
-    - energy_communities_cooperator
-    - energy_communities_mass_mailing
-    - energy_project
-    - energy_project_energy_communities
-    - energy_selfconsumption
-    - energy_selfconsumption_cooperator
+    #- energy_communities
+    #- energy_communities_crm
+    #- energy_communities_cooperator
+    #- energy_communities_mass_mailing
+    #- energy_project
+    #- energy_project_energy_communities
+    #- energy_selfconsumption
+    #- energy_selfconsumption_cooperator
     - l10n_es_account_asset
     - l10n_es_account_bank_statement_import_n43
     - l10n_es_account_banking_sepa_fsdd
@@ -81,10 +81,10 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_aeat_mod115
     - l10n_es_aeat_mod123
     - l10n_es_aeat_mod190
-    - l10n_es_aeat_mod303
     - l10n_es_aeat_mod347
-    - l10n_es_aeat_mod390
-    - l10n_es_facturae
+    #- l10n_es_aeat_mod303
+    #- l10n_es_aeat_mod390
+    #- l10n_es_facturae
     - l10n_es_irnr
     - l10n_es_mis_report
     - l10n_es_partner
@@ -92,18 +92,19 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_toponyms
     - l10n_es_vat_book
     - mail_tracking
-    - mass_editing
+    #- mass_editing
     - mass_mailing_list_dynamic
     - mass_mailing_partner
     - mass_mailing_resend
     - mis_builder
     - mis_builder_budget
     - partner_contact_access_link
+    - queue_job
     - report_py3o
     - report_xlsx
-    - web_access_rule_buttons
+    #- web_access_rule_buttons
     - web_advanced_search
-    - web_decimal_numpad_dot
+    #- web_decimal_numpad_dot
     - web_environment_ribbon
     - web_no_bubble
     - web_responsive
@@ -111,7 +112,7 @@ odoo_role_odoo_community_modules_dict:
     - web_widget_image_download
 
 # Odoo provisioning
-odoo_provisioning_version: "v0.7.21"
+odoo_provisioning_version: "v0.7.23"
 
 # Nginx configuration
 nginx_configs:
@@ -128,7 +129,8 @@ nginx_inv_extra_params:
 odoo_role_list_db: true
 
 # Support for loading system-wide modules
-odoo_role_odoo_server_wide_modules: ["base","base_future_response","web","base_sparse_field","queue_job"]
+#odoo_role_odoo_server_wide_modules: ["base","base_future_response","web","base_sparse_field","queue_job"]
+odoo_role_odoo_server_wide_modules: ["base","web","base_sparse_field","queue_job"]
 
 
 nginx_sites:
