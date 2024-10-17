@@ -48,6 +48,7 @@ odoo_role_odoo_community_modules_dict:
     - account_due_list
     - account_financial_report
     - account_fiscal_year
+    - account_invoice_refund_link
     #- account_menu
     - account_payment_mode
     - account_payment_return

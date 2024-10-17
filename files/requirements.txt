@@ -10,6 +10,7 @@ odoo-addon-account-due-list==16.0.1.2.0.4
 odoo-addon-account-financial-report==16.0.1.9.0.5
 odoo-addon-account-fiscal-year==16.0.1.2.0.2
 #odoo-addon-account-menu==undefined
+odoo-addon-account-invoice-refund-link==16.0.1.0.4.4
 odoo-addon-account-payment-mode==16.0.1.2.2
 odoo-addon-account-payment-return-import-iso20022==16.0.1.0.2
 odoo-addon-account-payment-return-import==16.0.1.0.1.4
