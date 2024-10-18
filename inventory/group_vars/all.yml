@@ -30,6 +30,7 @@ odoo_role_odoo_core_modules_dict:
     - contacts
     - crm
     - event
+    - event_sale
     - l10n_es
     - mass_mailing
     - mass_mailing_crm
