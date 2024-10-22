@@ -1,5 +1,5 @@
 # Vars to use in lxc-create
-NAME="odoo-ec"
+NAME="odoo-ec-15"
 DISTRIBUTION="ubuntu"
 RELEASE="jammy"
 ARCH="amd64"

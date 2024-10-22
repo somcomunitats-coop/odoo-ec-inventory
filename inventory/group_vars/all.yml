@@ -3,7 +3,7 @@
 ansible_python_interpreter: "/usr/bin/python3"
 
 # Venv vars
-odoo_role_python_version: "3.11.10"
+odoo_role_python_version: "3.8.18"
 odoo_role_venv_name: "odoo"
 odoo_role_odoo_venv_path: "/home/{{ odoo_role_odoo_user }}/pyenv/versions/{{ odoo_role_venv_name }}/"
 odoo_role_pip_version: "24.2"
@@ -16,8 +16,8 @@ odoo_role_odoo_user: odoo
 odoo_role_odoo_dbs: [odoo]
 
 odoo_role_download_strategy: tar
-odoo_role_odoo_version: "16.0"
-odoo_role_odoo_release: "16.0_2024-09-14"
+odoo_role_odoo_version: "15.0"
+odoo_role_odoo_release: "15.0_2024-10-14"
 odoo_role_odoo_url: "https://git.coopdevs.org/coopdevs/odoo/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
 odoo_role_odoo_core_modules_dict:
   shared:
@@ -65,7 +65,7 @@ odoo_role_odoo_community_modules_dict:
     - base_location_geonames_import
     - base_rest_auth_api_key
     - contract_payment_mode
-    - cooperator_website
+    #- cooperator_website
     - date_range
     #- energy_communities
     #- energy_communities_crm
@@ -84,9 +84,9 @@ odoo_role_odoo_community_modules_dict:
     - l10n_es_aeat_mod123
     - l10n_es_aeat_mod190
     - l10n_es_aeat_mod347
-    #- l10n_es_aeat_mod303
-    #- l10n_es_aeat_mod390
-    #- l10n_es_facturae
+    - l10n_es_aeat_mod303
+    - l10n_es_aeat_mod390
+    - l10n_es_facturae
     - l10n_es_irnr
     - l10n_es_mis_report
     - l10n_es_partner
