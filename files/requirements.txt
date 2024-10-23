@@ -25,7 +25,7 @@ odoo14-addon-base-rest==14.0.4.8.1
 odoo14-addon-contract-payment-mode==14.0.1.1.1
 odoo14-addon-cooperator-website==14.0.1.1.1
 odoo14-addon-date-range==14.0.2.1.2.dev3
-odoo14-addon-energy-communities==14.0.9.5.1
+odoo14-addon-energy-communities==14.0.9.5.2
 odoo14-addon-energy-communities-api==14.0.2.1.1
 odoo14-addon-energy-communities-cooperator==14.0.1.2.3
 odoo14-addon-energy-communities-crm==14.0.1.3.0
