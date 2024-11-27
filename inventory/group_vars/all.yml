@@ -106,6 +106,7 @@ odoo_role_odoo_community_modules_dict:
     - report_xlsx
     #- web_access_rule_buttons
     - web_advanced_search
+    - web_chatter_position
     #- web_decimal_numpad_dot
     - web_environment_ribbon
     - web_no_bubble
