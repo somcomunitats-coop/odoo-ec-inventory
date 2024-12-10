@@ -1,7 +1,7 @@
 # Vars to use in lxc-create
-NAME="odoo-ce"
+NAME="odoo-ec"
 DISTRIBUTION="ubuntu"
-RELEASE="focal"
+RELEASE="jammy"
 ARCH="amd64"
 HOST="$NAME.local"
 
@@ -12,7 +12,7 @@ DEVENV_GROUP="odoo"
 # in the host machine before executing this script.
 # Else, please clone it from https://gitlab.com/coopdevs/odoo-ce
 
-PROJECT_PATH="${PWD%/*}/odoo-ce/"
+PROJECT_PATH="${PWD%/*}/../somcomunitats/erp"
 declare -a OTHER_PROJECTS_PATHS=(
 )
 BASE_PATH="/opt/odoo_modules"
