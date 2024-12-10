@@ -7,6 +7,9 @@ PYPI_URL = "https://pypi.org/pypi/{}/json"
 PYPI_SLEEP = 0.2
 
 
+def _get_version_line(line):
+    return line.split("==")[1]
+
 def _get_upgraded_line(line):
     module_name = line.split("==")[0].replace("odoo14", "odoo")
     available_versions = {
@@ -29,15 +32,18 @@ def _get_upgraded_line(line):
     )
 
 
-with open("files/_back_requirements.txt") as req_file:
-    new_req = open("files/requirements.txt", "a")
+with open("files/requirements.txt") as req_file:
+    new_req = open("files/_analysis.txt", "a")
     for line in req_file:
-        if line.startswith("odoo14"):
+        if line.startswith("odoo"):
+            original_line_version = _get_version_line(line)
             upgraded_line = _get_upgraded_line(line)
+            upgraded_line_version = _get_version_line(upgraded_line)
             time.sleep(PYPI_SLEEP)
-            print(upgraded_line)
-            new_req.write("{}\n".format(upgraded_line))
-        else:
-            print(line)
-            new_req.write("{}\n".format(line))
+            if str(original_line_version).strip() != str(upgraded_line_version).strip():
+                print(upgraded_line)
+                new_req.write("{}\n".format(upgraded_line))
+        # else:
+        #     print(line)
+        #     new_req.write("{}\n".format(line))
     new_req.close()
