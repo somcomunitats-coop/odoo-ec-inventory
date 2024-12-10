@@ -17,7 +17,8 @@ odoo-addon-account-payment-return==16.0.1.1.1.1
 odoo-addon-account-payment-return-import==16.0.1.0.1.4
 odoo-addon-account-payment-return-import-iso20022==16.0.1.0.2
 odoo-addon-account-payment-sale==16.0.1.0.3
-odoo-addon-account-reconcile-oca==16.0.2.0.7.1
+odoo-addon-account-reconcile-oca==16.0.2.0.11
+odoo-addon-account-statement-base==16.0.1.13.2
 odoo-addon-account-statement-import-sheet-file==16.0.1.1.2.3
 odoo-addon-account-tax-balance==16.0.1.1.2
 odoo-addon-auth-api-key==16.0.1.0.0.7
@@ -49,11 +50,11 @@ odoo-addon-crm-rest-api==16.0.0.1.0
 odoo-addon-date-range==16.0.1.0.9.7
 odoo-addon-energy-communities==16.0.0.1.0
 odoo-addon-energy-communities-api==16.0.0.1.0
-odoo-addon-energy-communities-cooperator==16.0.0.1.0
+odoo-addon-energy-communities-cooperator==16.0.0.1.1
 odoo-addon-energy-communities-crm==16.0.0.1.0
 odoo-addon-energy-communities-mass-mailing==16.0.0.1.0
 odoo-addon-energy-project==16.0.0.1.0
-odoo-addon-energy-selfconsumption==16.0.0.1.0
+odoo-addon-energy-selfconsumption==16.0.0.1.1
 odoo-addon-l10n-es-account-asset==16.0.1.0.0.5
 odoo-addon-l10n-es-account-banking-sepa-fsdd==16.0.1.0.0.4
 odoo-addon-l10n-es-account-statement-import-n43==16.0.1.0.3
@@ -68,7 +69,7 @@ odoo-addon-l10n-es-aeat-mod390==16.0.2.6.0.1
 odoo-addon-l10n-es-aeat-sii-oca==16.0.2.0.1
 odoo-addon-l10n-es-cooperator==16.0.1.0.0.4
 odoo-addon-l10n-es-facturae==16.0.1.8.0.4
-odoo-addon-l10n-es-irnr==16.0.1.1.0
+odoo-addon-l10n-es-irnr==16.0.1.2.1.1
 odoo-addon-l10n-es-mis-report==16.0.1.1.0
 odoo-addon-l10n-es-partner-mercantil==16.0.1.0.0.4
 odoo-addon-l10n-es-partner==16.0.2.2.0

@@ -1,4 +1,6 @@
 ---
+monitoring_postgres_exporter_enabled: False
+
 # Use python3 interpreter
 ansible_python_interpreter: "/usr/bin/python3"
 
@@ -17,7 +19,7 @@ odoo_role_odoo_dbs: [odoo]
 
 odoo_role_download_strategy: tar
 odoo_role_odoo_version: "16.0"
-odoo_role_odoo_release: "16.0_2024-09-14"
+odoo_role_odoo_release: "16.0_2024-11-14"
 odoo_role_odoo_url: "https://git.coopdevs.org/coopdevs/odoo/OCB/-/archive/{{ odoo_role_odoo_release }}/OCB-{{ odoo_role_odoo_release }}.tar.gz"
 odoo_role_odoo_core_modules_dict:
   shared:
@@ -62,6 +64,7 @@ odoo_role_odoo_community_modules_dict:
     - account_payment_return_import_iso20022
     - account_payment_sale
     - account_reconcile_oca
+    - account_statement_base
     - account_statement_import_sheet_file
     - account_tax_balance
     - auth_api_key
