@@ -48,11 +48,11 @@ odoo-addon-crm-metadata==16.0.0.1.0
 odoo-addon-crm-metadata-rest-api==16.0.0.1.0
 odoo-addon-crm-rest-api==16.0.0.1.0
 odoo-addon-date-range==16.0.1.0.9.7
-odoo-addon-energy-communities==16.0.0.1.1
+odoo-addon-energy-communities==16.0.0.1.2
 odoo-addon-energy-communities-api==16.0.0.1.0
-odoo-addon-energy-communities-cooperator==16.0.0.1.1
-odoo-addon-energy-communities-crm==16.0.0.1.0
-odoo-addon-energy-communities-mass-mailing==16.0.0.1.0
+odoo-addon-energy-communities-cooperator==16.0.0.1.2
+odoo-addon-energy-communities-crm==16.0.0.1.1
+odoo-addon-energy-communities-mass-mailing==16.0.0.1.1
 odoo-addon-energy-project==16.0.0.1.0
 odoo-addon-energy-selfconsumption==16.0.0.1.1
 odoo-addon-l10n-es-account-asset==16.0.1.0.0.5
@@ -93,6 +93,7 @@ odoo-addon-queue-job==16.0.2.6.8
 odoo-addon-report-csv==16.0.2.1.0
 odoo-addon-report-py3o==16.0.1.0.4
 odoo-addon-report-xlsx==16.0.2.0.2
+odoo-addon-sentry==16.0.3.0.2
 odoo-addon-web-advanced-search==16.0.1.0.4.3
 odoo-addon-web-chatter-position==16.0.1.0.2.7
 odoo-addon-web-environment-ribbon==16.0.1.0.0.7
@@ -103,6 +104,7 @@ odoo-addon-web-timeline==16.0.1.1.5
 odoo-addon-web-widget-dropdown-dynamic==16.0.1.0.0.5
 odoo-addon-web-widget-image-download==16.0.1.0.0.3
 odoo-addon-website-odoo-debranding==16.0.1.0.0.5
-python-keycloak==2.9.0
+python-keycloak==5.1.1
 python-slugify==8.0.1
 Faker==18.13.0
+sentry-sdk==1.9.0
