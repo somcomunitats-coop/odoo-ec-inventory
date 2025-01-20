@@ -134,11 +134,13 @@ odoo_role_odoo_community_modules_dict:
     - partner_contact_gender
     - partner_firstname
     - partner_multi_company
+    - product_contract
     - pydantic
     - queue_job
     - report_csv
     - report_py3o
     - report_xlsx
+    - sale_product_pack
     - sentry
     - web_advanced-search
     - web_chatter-position

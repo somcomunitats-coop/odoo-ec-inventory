@@ -88,11 +88,13 @@ odoo-addon-partner-contact-birthdate==16.0.1.0.0.11
 odoo-addon-partner-contact-gender==16.0.1.0.0.11
 odoo-addon-partner-firstname==16.0.1.0.3.1
 odoo-addon-partner-multi-company==16.0.1.1.0.4
+odoo-addon-product-contract==16.0.1.0.1
 odoo-addon-pydantic==16.0.1.0.0.4
 odoo-addon-queue-job==16.0.2.6.8
 odoo-addon-report-csv==16.0.2.1.0
 odoo-addon-report-py3o==16.0.1.0.4
 odoo-addon-report-xlsx==16.0.2.0.2
+odoo-addon-sale-product-pack==16.0.1.0.3.2
 odoo-addon-sentry==16.0.3.0.2
 odoo-addon-web-advanced-search==16.0.1.0.4.3
 odoo-addon-web-chatter-position==16.0.1.0.2.7
